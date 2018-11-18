@@ -25,6 +25,13 @@ class ListViewController: UIViewController {
     
 }
 
+// MARK: - IBActions
+extension ListViewController {
+    @IBAction func logOut(_ segue: UIStoryboardSegue) {
+    }
+    
+    
+}
 extension ListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notes.count;
@@ -37,6 +44,5 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
-    
     
 }
