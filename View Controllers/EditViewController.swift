@@ -20,7 +20,6 @@ class EditViewController: UIViewController {
         if (oldNote) {
             editTextView.text = note?.text
         }
-        self.view.backgroundColor = MyColors.lightColor
         // Do any additional setup after loading the view.
     }
 

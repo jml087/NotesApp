@@ -76,21 +76,14 @@ extension SignUpViewController {
         Auth.auth().createUser(withEmail: email, password: password) {user, error in
             if error == nil && user != nil {
                 print("User created!")
-            
-                let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
-                changeRequest?.displayName = username
-                changeRequest?.commitChanges { error in
-                    if error == nil {
-                       print("User display name changed!")
-                    }
-                }
                 
                 let ref = Database.database().reference()
                 let uid = Auth.auth().currentUser?.uid
-                ref.child("\(uid!)").setValue("")
+                ref.child("\(uid!)").setValue(" ")
                 print(uid)
             
                 self.validSignUp = true
+                self.performSegue(withIdentifier: "signup", sender: Any?.self)
                 
             } else {
                 let alert = UIAlertController(title: "Error!", message: "\(error!.localizedDescription)", preferredStyle: UIAlertControllerStyle.alert)

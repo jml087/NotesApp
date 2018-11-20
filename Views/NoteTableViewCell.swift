@@ -12,6 +12,7 @@ class NoteTableViewCell: UITableViewCell {
     
     var title : String = ""
     var note : NewNote?
+    @IBOutlet var date: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -68,6 +68,8 @@ extension SignInViewController {
             if error == nil && user != nil {
                 print("Signed in!")
                 self.validLogin = true
+                self.performSegue(withIdentifier: "signin", sender: Any?.self)
+
             } else {
                 let alert = UIAlertController(title: "Error!", message: "\(error!.localizedDescription)", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil))

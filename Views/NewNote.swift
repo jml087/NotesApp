@@ -57,8 +57,9 @@ class NewNote {
     
     func toDict() -> [String:Any] {
         var subStr = ""
-        if text.endIndex.encodedOffset > 30 {
-            let index = text.index(text.startIndex, offsetBy: 30)
+        print(text.count)
+        if text.count > 24 {
+            let index = text.index(text.startIndex, offsetBy: 24)
             subStr = "\(String(text[..<index]))..."
         }
         else {

@@ -90,6 +90,7 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "noteCell", for: indexPath) as! NoteTableViewCell
         cell.note = notes[indexPath.row]
         cell.textLabel?.text = notes[indexPath.row].summary
+        cell.date.text = notes[indexPath.row].date
         return cell
     }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
