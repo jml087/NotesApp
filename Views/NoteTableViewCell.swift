@@ -11,6 +11,7 @@ import UIKit
 class NoteTableViewCell: UITableViewCell {
     
     var title : String = ""
+    var note : NewNote?
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -9,10 +9,18 @@
 import UIKit
 
 class EditViewController: UIViewController {
-
+    
+    var listEdit : String?
+    var oldNote: Bool = false
+    var note: NewNote?
+    @IBOutlet var editTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if (oldNote) {
+            editTextView.text = note?.text
+        }
+        self.view.backgroundColor = MyColors.lightColor
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +30,19 @@ class EditViewController: UIViewController {
     }
     
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (oldNote) {
+            note?.text = editTextView.text
+            note?.edit()
+        }
+        else {
+            let newNote = NewNote(text: editTextView.text)
+            newNote.saveNew()
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -10,6 +10,7 @@
 		1D04AB011B558138D6D8B085 /* Pods_Notes_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E468C3426735A014F6EDC4BE /* Pods_Notes_AppTests.framework */; };
 		5FB1E557B8001E1A56141C46 /* Pods_Notes_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7F28825C92A926E7455431 /* Pods_Notes_App.framework */; };
 		71B4B61E08A066F9AAB62E15 /* Pods_Notes_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB44B6E61CD3CA3915A94794 /* Pods_Notes_AppUITests.framework */; };
+		C403720821A3B1B2001B7F23 /* NewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403720721A3B1B2001B7F23 /* NewNote.swift */; };
 		C42215ED219E3BAC000660DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42215EC219E3BAC000660DF /* AppDelegate.swift */; };
 		C42215F2219E3BAC000660DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42215F0219E3BAC000660DF /* Main.storyboard */; };
 		C42215F4219E3BBB000660DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42215F3219E3BBB000660DF /* Assets.xcassets */; };
@@ -21,6 +22,10 @@
 		C44A0768219F796A0024261A /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A0767219F796A0024261A /* NoteTableViewCell.swift */; };
 		C44A076A219F7CAC0024261A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A0769219F7CAC0024261A /* ListViewController.swift */; };
 		C4A38F3221A200FD00382917 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4A38F3121A200FD00382917 /* GoogleService-Info.plist */; };
+		C4A38F3421A20CFD00382917 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A38F3321A20CFD00382917 /* SignInViewController.swift */; };
+		C4A38F3621A20D0A00382917 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A38F3521A20D0A00382917 /* SignUpViewController.swift */; };
+		C4A38F3821A219E600382917 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4A38F3721A219E600382917 /* GoogleService-Info.plist */; };
+		C4A38F3B21A2307D00382917 /* RopaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4A38F3A21A2305A00382917 /* RopaSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,7 @@
 		26AF5DD07A432FCA1C546259 /* Pods-Notes AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notes AppTests/Pods-Notes AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F24576CFBC3FFE1A508AB65 /* Pods-Notes AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notes AppUITests/Pods-Notes AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4F0BF4123E2D429A5CC1FE1 /* Pods-Notes AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notes AppTests/Pods-Notes AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C403720721A3B1B2001B7F23 /* NewNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNote.swift; sourceTree = "<group>"; };
 		C42215E9219E3BAC000660DF /* Notes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42215EC219E3BAC000660DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42215F1219E3BAC000660DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 		C44A0767219F796A0024261A /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
 		C44A0769219F7CAC0024261A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C4A38F3121A200FD00382917 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4A38F3321A20CFD00382917 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C4A38F3521A20D0A00382917 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C4A38F3721A219E600382917 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4A38F3A21A2305A00382917 /* RopaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RopaSans-Regular.ttf"; sourceTree = "<group>"; };
 		D5401EECC6CC080794508B3F /* Pods-Notes AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notes AppUITests/Pods-Notes AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E468C3426735A014F6EDC4BE /* Pods_Notes_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notes_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB44B6E61CD3CA3915A94794 /* Pods_Notes_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notes_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +133,7 @@
 		C42215E0219E3BAB000660DF = {
 			isa = PBXGroup;
 			children = (
+				C4A38F3921A2304B00382917 /* Fonts */,
 				C4DD68EB21A099BB006C3B53 /* Views */,
 				C4DD68EA21A099AA006C3B53 /* View Controllers */,
 				C42215EB219E3BAC000660DF /* Notes App */,
@@ -152,6 +163,7 @@
 				C42215F5219E3BBB000660DF /* LaunchScreen.storyboard */,
 				C42215F3219E3BBB000660DF /* Assets.xcassets */,
 				C42215F8219E3BBB000660DF /* Info.plist */,
+				C4A38F3721A219E600382917 /* GoogleService-Info.plist */,
 			);
 			path = "Notes App";
 			sourceTree = "<group>";
@@ -175,10 +187,20 @@
 			path = "Notes AppUITests";
 			sourceTree = "<group>";
 		};
+		C4A38F3921A2304B00382917 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4A38F3A21A2305A00382917 /* RopaSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C4DD68EA21A099AA006C3B53 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C44A0761219F75930024261A /* LoginViewController.swift */,
+				C4A38F3321A20CFD00382917 /* SignInViewController.swift */,
+				C4A38F3521A20D0A00382917 /* SignUpViewController.swift */,
 				C44A0769219F7CAC0024261A /* ListViewController.swift */,
 				C44A0765219F77F00024261A /* EditViewController.swift */,
 			);
@@ -188,6 +210,7 @@
 		C4DD68EB21A099BB006C3B53 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C403720721A3B1B2001B7F23 /* NewNote.swift */,
 				C44A0767219F796A0024261A /* NoteTableViewCell.swift */,
 			);
 			path = Views;
@@ -205,6 +228,7 @@
 				C42215E6219E3BAB000660DF /* Frameworks */,
 				C42215E7219E3BAB000660DF /* Resources */,
 				1F53FC2E5C20D2ABBD59AB15 /* [CP] Embed Pods Frameworks */,
+				9EE8A2C29DC18EAA3CFD0509 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,8 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42215F7219E3BBB000660DF /* LaunchScreen.storyboard in Resources */,
+				C4A38F3821A219E600382917 /* GoogleService-Info.plist in Resources */,
 				C42215F4219E3BBB000660DF /* Assets.xcassets in Resources */,
 				C42215F2219E3BAC000660DF /* Main.storyboard in Resources */,
+				C4A38F3B21A2307D00382917 /* RopaSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,18 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Notes App/Pods-Notes App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -356,15 +380,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Notes AppTests-checkManifestLockResult.txt",
 			);
@@ -373,20 +393,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1157053EBC9B36B886A63C4 /* [CP] Check Pods Manifest.lock */ = {
+		9EE8A2C29DC18EAA3CFD0509 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Notes App/Pods-Notes App-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notes App/Pods-Notes App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1157053EBC9B36B886A63C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Notes AppUITests-checkManifestLockResult.txt",
 			);
@@ -400,15 +434,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Notes App-checkManifestLockResult.txt",
 			);
@@ -424,8 +454,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C403720821A3B1B2001B7F23 /* NewNote.swift in Sources */,
 				C44A0766219F77F00024261A /* EditViewController.swift in Sources */,
+				C4A38F3621A20D0A00382917 /* SignUpViewController.swift in Sources */,
 				C44A0762219F75930024261A /* LoginViewController.swift in Sources */,
+				C4A38F3421A20CFD00382917 /* SignInViewController.swift in Sources */,
 				C42215ED219E3BAC000660DF /* AppDelegate.swift in Sources */,
 				C44A076A219F7CAC0024261A /* ListViewController.swift in Sources */,
 				C44A0768219F796A0024261A /* NoteTableViewCell.swift in Sources */,
